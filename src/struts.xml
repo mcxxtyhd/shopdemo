@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	 <!-- 请求的URL的后缀的配置 -->
+	  <constant name="struts.action.extension" value="action,do,,"/>
+	  <!-- 开放动态方法 -->
+	  <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+	  <!-- 使用开发者模式 -->
+	  <constant name="struts.devMode" value="true"/>
+	  
+</struts>
